@@ -13,13 +13,22 @@ DURATION: 4 WEEKS
 MENTOR: NEELA SANTHOSH KUMAR
 
 🌦️ Indian State Weather App — Project Description
+
+
 📌 Project Title:
+
+
 Weather Forecast Web App with Live Updates by Indian State
 
+
 📝 Overview:
+
+
 This project is a modern, responsive web application that provides real-time weather updates for all Indian states, using their respective capital cities. It leverages the OpenWeatherMap API to fetch live weather data, including temperature, humidity, and wind speed, and updates dynamically based on user input.
 
 ⚙️ Technologies Used:
+
+
 Component	Technology
 Frontend	HTML5, CSS3, JavaScript
 API	OpenWeatherMap API
@@ -27,6 +36,7 @@ Design	CSS Flexbox, Gradients, Rounded UI
 Tools	VS Code / Any IDE, Live Server or Browser
 
 🖥️ Features:
+
 🔘 State Dropdown: A selection menu containing all Indian states.
 
 🌤️ Real-Time Weather: Displays live weather data including:
@@ -37,7 +47,11 @@ Humidity (%)
 
 Wind Speed (km/h)
 
+
+
 🎨 Stylish UI:
+
+
 
 Gradient rounded background (.app)
 
@@ -45,9 +59,15 @@ Circular weather display (.temperature)
 
 Light blue & white modern color palette
 
+
+
 🔁 Dynamic Updates: Weather info changes instantly when a different state is selected.
 
+
+
 ✅ Clean Separation: Code is organized into:
+
+
 
 index.html – markup
 
@@ -55,7 +75,11 @@ style.css – layout & style
 
 script.js – API logic
 
+
+
 🗺️ State-to-Capital Mapping:
+
+
 Each state selection is linked to its capital city, which is used to query weather data:
 
 Ex: "Karnataka" → "Bengaluru", "Maharashtra" → "Mumbai"
@@ -63,6 +87,8 @@ Ex: "Karnataka" → "Bengaluru", "Maharashtra" → "Mumbai"
 This ensures accurate and consistent API results.
 
 🔐 API Integration:
+
+
 Weather data is fetched using the OpenWeatherMap REST API.
 Example API call:
 
@@ -70,7 +96,12 @@ bash
 Copy
 Edit
 https://api.openweathermap.org/data/2.5/weather?q=Bengaluru,IN&units=metric&appid=YOUR_API_KEY
+
+
+
 📂 File Structure:
+
+
 graphql
 Copy
 Edit
@@ -78,7 +109,13 @@ weather-app/
 ├── index.html     # Main HTML structure
 ├── style.css      # App styling and layout
 └── script.js      # JavaScript for API calls and DOM updates
+
+
+
 💡 How It Works:
+
+
+
 User selects a state from the dropdown.
 
 JavaScript maps the state to its capital.
@@ -95,14 +132,20 @@ Wind speed in km/h
 
 Errors are handled gracefully with an alert message.
 
+
+
 🚀 How to Run:
+
+
 Extract the ZIP file.
 
 Open index.html in a browser.
 
 Select any Indian state — and view its live weather!
 
-📈 Future Enhancements (Optional):
+📈 Future Enhancements :
+
+
 🌐 Add search by city name
 
 📍 Integrate geolocation
