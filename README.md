@@ -158,3 +158,10 @@ Select any Indian state — and view its live weather!
 📊 Add forecast for 5 days
 
 🔄 Refresh data automatically
+
+
+#OUTPUT: 
+
+![Image](https://github.com/user-attachments/assets/1786bc0e-8b4a-45ef-a2f5-5a783b0e2788)
+![Image](https://github.com/user-attachments/assets/52993afb-69bf-41cf-8860-588ede002328)
+![Image](https://github.com/user-attachments/assets/f13dba67-5db1-416f-b057-933c49826ba1)
